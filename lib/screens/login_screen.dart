@@ -2,6 +2,9 @@ import 'package:checktrail/screens/creens_barrel.dart';
 import 'package:checktrail/widgets/widgets_barrel.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/login_background.dart';
+import '../widgets/login_card_container.dart';
+
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
@@ -20,9 +23,34 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('LoginScreen'),
+    return Scaffold(
+      body: LogBackground(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              const SizedBox(
+                height: 250,
+              ),
+              CardContainer(
+                child: Column(
+                  children: [
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      'INICIO DE SESIÓN',
+                      style: Theme.of(context).textTheme.headlineSmall,
+                    ),
+                    const SizedBox(
+                      height: 30,
+                    ),
+                    LoginForm(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
