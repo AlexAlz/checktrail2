@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:checktrail/widgets/widgets_barrel.dart';
 
+import 'login_card_container.dart';
+
 class ErrorScreen extends StatelessWidget {
   final String errorMessage;
 

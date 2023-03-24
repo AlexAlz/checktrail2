@@ -6,6 +6,14 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 
+import '../widgets/clausula_salud.dart';
+import '../widgets/dictamen_widget.dart';
+import '../widgets/login_card_container.dart';
+import '../widgets/not_found.dart';
+import '../widgets/observaciones_widget.dart';
+import '../widgets/simple_appbar.dart';
+import '../widgets/valoracion_widget.dart';
+
 class SaludScreen extends StatefulWidget {
   const SaludScreen({
     Key? key,

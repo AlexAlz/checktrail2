@@ -2,6 +2,9 @@ import 'package:checktrail/screens/creens_barrel.dart';
 import 'package:checktrail/widgets/widgets_barrel.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/login_card_container.dart';
+import '../widgets/simple_appbar.dart';
+
 class BonosScreen extends StatefulWidget {
   const BonosScreen({super.key, required this.title});
   final String title;

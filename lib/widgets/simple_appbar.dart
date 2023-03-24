@@ -1,6 +1,8 @@
 import 'package:checktrail/widgets/widgets_barrel.dart';
 import 'package:flutter/material.dart';
 
+import 'drawer_widget.dart';
+
 class SimpleAppBar extends StatelessWidget {
   final String title;
 
