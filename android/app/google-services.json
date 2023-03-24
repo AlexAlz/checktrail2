@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "516731903004",
+    "project_id": "checktrail-1d6b6",
+    "storage_bucket": "checktrail-1d6b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516731903004:android:b6f150356765ef235193d9",
+        "android_client_info": {
+          "package_name": "com.example.checktrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516731903004-oq6rnuuvken549nknc5jpleggiuslq7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53ePZfrR_nDDJHh_Mtm0x1Bt-QzqjSKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516731903004-oq6rnuuvken549nknc5jpleggiuslq7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516731903004:android:8f4f15a2a7eacc765193d9",
+        "android_client_info": {
+          "package_name": "com.modular.checktrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516731903004-oq6rnuuvken549nknc5jpleggiuslq7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53ePZfrR_nDDJHh_Mtm0x1Bt-QzqjSKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516731903004-oq6rnuuvken549nknc5jpleggiuslq7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

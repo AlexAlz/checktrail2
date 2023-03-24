@@ -1,0 +1,12 @@
+export 'package:checktrail/widgets/not_found.dart';
+export 'package:checktrail/widgets/dictamen_widget.dart';
+export 'package:checktrail/widgets/observaciones_widget.dart';
+export 'package:checktrail/widgets/clausula_salud.dart';
+export 'package:checktrail/widgets/drawer_widget.dart';
+export 'package:checktrail/widgets/login_background.dart';
+export 'package:checktrail/widgets/login_card_container.dart';
+export 'package:checktrail/widgets/main_background.dart';
+export 'package:checktrail/widgets/simple_appbar.dart';
+export 'package:checktrail/widgets/status_widget.dart';
+export 'package:checktrail/widgets/valoracion_widget.dart';
+export 'package:checktrail/widgets/viajes_widget.dart';

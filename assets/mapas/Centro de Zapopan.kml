@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Centro de Zapopan</name>
+    <description><![CDATA[Centro de Zapopan<br><br>Ubicación de Uniformes Gómez:<br>Juarez #53, Col Centro<br>Entre la calle Eva Briseño y Emiliano Zapata, detrás del <br>Zapopan, Jalisco<br><br>www.manufactureragomez.com<br>www.uniformesgomez.com]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Uniformes Gómez</name>
+        <description><![CDATA[Uniformes Escolares Gómez (http://www.uniformesgomez.com)<br>Juárez #53, Col Centro<br>Entre las calles Emiliano Zapata y Eva Briseño<br>Zapopan, Jalisco<br>CP 45100<br>A la salida de Parroquia San Pedro<br>(Detrás del Mercado de Zapopan)<br>a unos minutos de Guadalajara. <br><br>Tenemos sucursales también en Zapotlanejo y Medrano (Guadalajara)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.390617,20.722366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de Zapopan</name>
+        <description>Basílica de Zapopan</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.39235,20.721292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado de Zapopan</name>
+        <description><![CDATA[Mercado Zapopan<br>Venta de víveres, fondas para comer, fruta, crema, carnes, tacos, etc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.391293,20.721929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parroquia San Pedro</name>
+        <description><![CDATA[Parroquia de San Pedro, una de las más antiguas en Zapopan. Colinda con el Mercado de Zapopan y da al frente con la Basílica de Zapopan. <br><br>- Nota agregada por Uniformes Gómez (http://www.uniformesgomez.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.390751,20.721984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo de Arte de Zapopan</name>
+        <description><![CDATA[El nuevo Museo de Arte Zapopan, con galerías y muestras artísticas de todo tipo, según la temporada. <br><br>Abierto de Lúnes a Sábado, cierran los domingos.<br><br>-Nota agregada por Uniformes Gómez (http://www.uniformesgomez.com)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.390778,20.720464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juárez 53</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHFs7gYeQz569lBwZm6KiNN2Tj_LQV4qQmYEck2rH0zkVZ7c0xGxzwhs9ebKSpSLjsV1BTl-gYWKIa2T7fcrvJkwbAdooN6sCCN20fRrxoSxcsrxuadg-4w8BoKkgwsaSjCpoq6djPEXD8V0HaK0b1-SEximMZ9uKv58Q" height="200" width="auto" /><br><br>Zapopan Centro, 45100 Zapopan, JAL, Mexico]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHFs7gYeQz569lBwZm6KiNN2Tj_LQV4qQmYEck2rH0zkVZ7c0xGxzwhs9ebKSpSLjsV1BTl-gYWKIa2T7fcrvJkwbAdooN6sCCN20fRrxoSxcsrxuadg-4w8BoKkgwsaSjCpoq6djPEXD8V0HaK0b1-SEximMZ9uKv58Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.390769,20.722361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Juárez 53</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ANkjSgHFs7gYeQz569lBwZm6KiNN2Tj_LQV4qQmYEck2rH0zkVZ7c0xGxzwhs9ebKSpSLjsV1BTl-gYWKIa2T7fcrvJkwbAdooN6sCCN20fRrxoSxcsrxuadg-4w8BoKkgwsaSjCpoq6djPEXD8V0HaK0b1-SEximMZ9uKv58Q" height="200" width="auto" /><br><br>Zapopan Centro, 45100 Zapopan, JAL, Mexico]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ANkjSgHFs7gYeQz569lBwZm6KiNN2Tj_LQV4qQmYEck2rH0zkVZ7c0xGxzwhs9ebKSpSLjsV1BTl-gYWKIa2T7fcrvJkwbAdooN6sCCN20fRrxoSxcsrxuadg-4w8BoKkgwsaSjCpoq6djPEXD8V0HaK0b1-SEximMZ9uKv58Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -103.390769,20.722361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada a Estacionamiento de Zapopan</name>
+        <description>Entrada principal a Estacionamiento de Zapopan.  A una cuadra de Manufacturera Gómez cruzando por la Iglesia San Pedro.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.390325,20.721461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada 3 a Estacionamiento de Zapopan</name>
+        <description>Entrada a Estacionamiento de Zapopan por Javier Mina. Tener cuidado al dar vuelta, es entrada y salida de coches.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.390538,20.720016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrada 2 a Estacionamiento Basilica de Zapopan</name>
+        <description>Entrada por Eva Briseño.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.39187,20.720257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estacionamiento Morelos</name>
+        <description>A una cuadra de Uniformes Gómez</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.389426,20.723068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uniformes Gómez Sucursal Juarez #17</name>
+        <description>Sucursal de Uniformes Gómez para venta al público, ubicada en Juarez #17 junto a Zapatería, a 7 locales de nuestra otra sucursal.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.391214,20.722417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,4 +1,4 @@
-package com.example.checktrail
+package com.modular.checktrail
 
 import io.flutter.embedding.android.FlutterActivity
 
