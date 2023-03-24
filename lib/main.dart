@@ -23,32 +23,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedContainer(
-      duration: const Duration(seconds: 1),
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage("assets/logo1.png"),
-          fit: BoxFit.cover,
-        ),
-      ),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'PilotHealth',
-        initialRoute: 'login',
-        //! Y aquí las rutas de las vistas que usan los providers
-        routes: {
-          'login': (_) => const LoginScreen(),
-          'home': (_) => const MainHome(),
-          'salud': (_) => const SaludScreen(
-                title: 'Salud',
-              ),
-          'valoraciones': (_) => ValoracionWidget(),
-          'observaciones': (_) => ObservacionWidget(),
-          'dictamen': (_) => DictamenWidget(),
-          'viajes': (_) => ViajesWidget()
-        },
-        theme: ThemeData.light(),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'CheckTrail',
+      initialRoute: 'login',
+      routes: {
+        'login': (_) => const LoginScreen(),
+        'home': (context) => const HomeScreen()
+      },
     );
   }
 }

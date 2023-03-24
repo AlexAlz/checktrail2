@@ -20,34 +20,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: LogBackground(
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
-              const SizedBox(
-                height: 250,
-              ),
-              CardContainer(
-                child: Column(
-                  children: [
-                    const SizedBox(
-                      height: 10,
-                    ),
-                    Text(
-                      'INICIO DE SESIÓN',
-                      style: Theme.of(context).textTheme.headlineSmall,
-                    ),
-                    const SizedBox(
-                      height: 30,
-                    ),
-                    LoginForm(),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
+    return const Scaffold(
+      body: Center(
+        child: Text('LoginScreen'),
       ),
     );
   }
